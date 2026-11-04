@@ -25,6 +25,7 @@ public static class SeedData
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Genre = "Romantic Comedy",
+                    Rating = "R",
                     Price = 7.99M
                 },
                 new Movie
@@ -32,6 +33,7 @@ public static class SeedData
                     Title = "Ghostbusters",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
+                    Rating = "PG",
                     Price = 8.99M
                 },
                 new Movie
@@ -39,6 +41,7 @@ public static class SeedData
                     Title = "Ghostbusters 2",
                     ReleaseDate = DateTime.Parse("1986-2-23"),
                     Genre = "Comedy",
+                    Rating = "PG",
                     Price = 9.99M
                 },
                 new Movie
@@ -46,30 +49,33 @@ public static class SeedData
                     Title = "Rio Bravo",
                     ReleaseDate = DateTime.Parse("1959-4-15"),
                     Genre = "Western",
+                    Rating = "NR",
                     Price = 3.99M
                 },
 
-                // TODO: replace these three placeholders with your own favorite movies
-                // (title, release date, genre, price) before you run the app.
+                // My favorite movies
                 new Movie
                 {
-                    Title = "Avartar",
-                    ReleaseDate = DateTime.Parse("2000-1-1"),
-                    Genre = "Genre",
+                    Title = "Avatar",
+                    ReleaseDate = DateTime.Parse("2009-12-18"),
+                    Genre = "Science Fiction",
+                    Rating = "PG-13",
                     Price = 9.99M
                 },
                 new Movie
                 {
                     Title = "Frozen",
-                    ReleaseDate = DateTime.Parse("2010-1-1"),
-                    Genre = "Genre",
+                    ReleaseDate = DateTime.Parse("2013-11-27"),
+                    Genre = "Animation",
+                    Rating = "PG",
                     Price = 9.99M
                 },
                 new Movie
                 {
                     Title = "Beauty and the Beast",
-                    ReleaseDate = DateTime.Parse("2020-1-1"),
-                    Genre = "Genre",
+                    ReleaseDate = DateTime.Parse("1991-11-22"),
+                    Genre = "Musical",
+                    Rating = "G",
                     Price = 9.99M
                 }
             );

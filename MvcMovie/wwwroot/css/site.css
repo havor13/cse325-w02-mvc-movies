@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Padding so text isn't jammed against the border of form controls */
+input:not([type="checkbox"]):not([type="radio"]),
+select,
+textarea {
+  padding: 0.4rem 0.6rem;
+}
+
+/* A little space between the filter fields on the My Movies page */
+form label {
+  margin-right: 1rem;
+}
